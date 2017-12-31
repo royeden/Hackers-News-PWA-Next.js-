@@ -50,13 +50,13 @@ export default class extends React.Component {
             color: ${ mode ? "#fff" : styles.colors.standard };
           }
 
-          @media screen and (max-Width: 355px) {
+          @media screen and (max-Width: 368px) {
             .footer {
               font-size: 0.85rem;
             }
 
             .footer > a > img {
-              margin-left: 5px;
+              margin-left: 2px;
             }
           }
         `}</style>

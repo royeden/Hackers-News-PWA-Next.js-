@@ -20,18 +20,6 @@ app.prepare()
     app.render(req, res, actualPage, queryParams)
   })
 
-  server.get('/:mode/:page', (req, res) => {
-    const actualPage = '/'
-
-    const queryParams = {
-      mode: req.params.mode,
-      page: req.params.mode
-    }
-
-
-    app.render(req, res, actualPage, queryParams)
-  })
-
   server.get('/about/:mode', (req, res) => {
     const actualPage = '/about'
 
