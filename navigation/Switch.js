@@ -34,7 +34,6 @@ export default class extends React.Component {
           .mode {
             padding-left: 2px;
             padding-right: 2px;
-            padding-bottom: 1px;
             color: #fff;
             height: 100%;
             transition: ${ styles.transitions.standard }
