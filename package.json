@@ -1,6 +1,6 @@
 {
   "name": "hackers-news-next-pwa",
-  "alias": "roy.hackernews",
+  "alias": "roy-hackers-news",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
